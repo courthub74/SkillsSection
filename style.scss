@@ -38,6 +38,12 @@ $firstblue: #58a6ff;
                 font-size: clamp(1rem, 2rem, 3rem);
                 color: white;
                 display: flex;
+                align-items: center;
+                justify-content: center;
+                // background-color: #00C6C3;
+                width: 100%;
+                // width: 80vh;
+                // height: 80vh;
                 // when it's small
                 // when big etch these out
                 flex-direction: column;
@@ -53,14 +59,28 @@ $firstblue: #58a6ff;
                         gap: 1ch;
                         .back_circle {
                             background-color: $jobdescription;
+                            width: 20vw;
+                            height: 20vw;
+                            border-radius: 50%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
                             .front_circle {
                                background-color: $darkblue;
+                               width: 15vw;
+                               height: 15vw;
+                               border-radius: 50%;
+                               display: flex;
+                               justify-content: center;
+                               align-items: center;
                             }
                         }
                     }
                     // second 3
                     .second_three {
                         display: flex;
+                        align-items: center;
+                        justify-content: center;
                         gap: 1ch;
                         .back_circle {
                             background-color: $jobdescription;
@@ -73,6 +93,8 @@ $firstblue: #58a6ff;
                 // second 6
                 .second_six {
                     display: flex;
+                    align-items: center;
+                    justify-content: center;
                     flex-direction: column;
                     gap: 1ch;
                     // third 3

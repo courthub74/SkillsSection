@@ -19,6 +19,9 @@
   font-size: 2rem;
   color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   flex-direction: column;
   gap: 1ch;
 }
@@ -33,12 +36,26 @@
 }
 * body .skills_section .skill_circles .first_six .first_three .back_circle {
   background-color: #00C6C3;
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
   background-color: #080E2F;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 * body .skills_section .skill_circles .first_six .second_three {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1ch;
 }
 * body .skills_section .skill_circles .first_six .second_three .back_circle {
@@ -49,6 +66,8 @@
 }
 * body .skills_section .skill_circles .second_six {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 1ch;
 }
