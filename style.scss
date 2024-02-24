@@ -28,8 +28,76 @@ $firstblue: #58a6ff;
         .skills_section {
             background-color: $nextgreen;
             height: 100vh;
-            .skills_circles {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .skill_circles {
                 container-type: inline-size;
+                font-family: 'Inter', sans-serif;
+                font-weight: bold;
+                font-size: clamp(1rem, 2rem, 3rem);
+                color: white;
+                display: flex;
+                // when it's small
+                // when big etch these out
+                flex-direction: column;
+                gap: 1ch;
+                // first 6
+                .first_six {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1ch;
+                    // first 3
+                    .first_three {
+                        display: flex;
+                        gap: 1ch;
+                        .back_circle {
+                            background-color: $jobdescription;
+                            .front_circle {
+                               background-color: $darkblue;
+                            }
+                        }
+                    }
+                    // second 3
+                    .second_three {
+                        display: flex;
+                        gap: 1ch;
+                        .back_circle {
+                            background-color: $jobdescription;
+                            .front_circle {
+                               background-color: $darkblue;
+                            }
+                        }
+                    }
+                }
+                // second 6
+                .second_six {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1ch;
+                    // third 3
+                    .third_three {
+                        display: flex;
+                        gap: 1ch;
+                        .back_circle {
+                            background-color: $jobdescription;
+                            .front_circle {
+                               background-color: $darkblue;
+                            }
+                        }
+                    }
+                    // third 4
+                    .fourth_three {
+                        display: flex;
+                        gap: 1ch;
+                        .back_circle {
+                            background-color: $jobdescription;
+                            .front_circle {
+                               background-color: $darkblue;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
