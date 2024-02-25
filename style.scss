@@ -172,164 +172,37 @@ $firstblue: #58a6ff;
                         }
                     }
                 }
+                // @container (width: 1024px) {
+                //     .skill_circles {
+                //         background-color: $firstblue;
+                //     }
+                // }
             }
         }
     }
 }
 
 // Container for skills circles on the SURFACE DUO
-@container (width: 540px) {
-    * {
-        margin: 0;
-        body {
-            background-color: $darkblue;
-            .skills_section {
-                background-color: $nextgreen;
-                height: 100vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                // display: none;
-                .big_circle {
-                    display: none;
-                }
-                .skill_circles {
-                    container-type: inline-size;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: bold;
-                    font-size: clamp(1rem, 2rem, 3rem);
-                    color: white;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    // background-color: #00C6C3;
-                    width: 100%;
-                    // when it's small
-                    // when big etch these out
-                    // flex-direction: column;
-                    gap: .5ch;
-                    // first 6
-                    .first_six {
-                        display: flex;
-                        flex-direction: column;
-                        gap: .5ch;
-                        // background-color: #00C6C3;
-                        // first 3
-                        .first_three {
-                            display: flex;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 18vw;
-                                height: 18vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 16vw;
-                                   height: 16vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                        // second 3
-                        .second_three {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 18vw;
-                                height: 18vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 16vw;
-                                   height: 16vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                    }
-                    // second 6
-                    .second_six {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        gap: .5ch;
-                        // third 3
-                        .third_three {
-                            display: flex;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 18vw;
-                                height: 18vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 16vw;
-                                   height: 16vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                        // third 4
-                        .fourth_three {
-                            display: flex;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 18vw;
-                                height: 18vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 16vw;
-                                   height: 16vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+// @container (width: 1024px) {
+//     .skill_circles {
+//         container-type: inline-size;
+//         font-family: 'Inter', sans-serif;
+//         font-weight: bold;
+//         font-size: clamp(1rem, 2rem, 3rem);
+//         color: white;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         // background-color: #00C6C3;
+//         width: 100%;
+//         // width: 80vh;
+//         // height: 80vh;
+//         // when it's small
+//         // when big etch these out
+//         flex-direction: column;
+//         gap: .5ch;
+//     }
+// }
 
 // Tablets and Landscapes
 @media screen and (min-width: 601px) and (max-width: 767px){
@@ -637,160 +510,160 @@ $firstblue: #58a6ff;
         }
     }
 }
-// Container for skills circles on the IPAD AIR
-@container (min-width: 820px) and (max-width: 912px)  {
-    * {
-        margin: 0;
-        body {
-            background-color: $darkblue;
-            .skills_section {
-                background-color: $nextgreen;
-                // background-color: #58a6ff;
-                height: 50vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                // display: none;
-                .big_circle {
-                    display: none;
-                }
-                .skill_circles {
-                    container-type: inline-size;
-                    font-family: 'Inter', sans-serif;
-                    font-weight: bold;
-                    font-size: clamp(1rem, 2rem, 3rem);
-                    color: white;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    background-color: #00C6C3;
-                    width: 100%;
-                    // when it's small
-                    // when big etch these out
-                    // flex-direction: column;
-                    gap: .5ch;
-                    // first 6
-                    .first_six {
-                        display: flex;
-                        flex-direction: column;
-                        gap: .5ch;
-                        // first 3
-                        .first_three {
-                            display: flex;
-                            gap: .5ch;
-                            // background-color: #00C6C3;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 13vw;
-                                height: 13vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 12vw;
-                                   height: 12vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                        // second 3
-                        .second_three {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 13vw;
-                                height: 13vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 12vw;
-                                   height: 12vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                    }
-                    // second 6
-                    .second_six {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        flex-direction: column;
-                        gap: .5ch;
-                        // third 3
-                        .third_three {
-                            display: flex;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 13vw;
-                                height: 13vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 12vw;
-                                   height: 12vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                        // third 4
-                        .fourth_three {
-                            display: flex;
-                            gap: .5ch;
-                            .back_circle {
-                                background-color: $jobdescription;
-                                background-color: $skillsteal;
-                                width: 13vw;
-                                height: 13vw;
-                                border-radius: 50%;
-                                border: 3px solid $darkblue;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                .front_circle {
-                                   background-color: $darkblue;
-                                   width: 12vw;
-                                   height: 12vw;
-                                   border-radius: 50%;
-                                   display: flex;
-                                   justify-content: center;
-                                   align-items: center;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+// // Container for skills circles on the IPAD AIR
+// @container (min-width: 820px) and (max-width: 912px)  {
+//     * {
+//         margin: 0;
+//         body {
+//             background-color: $darkblue;
+//             .skills_section {
+//                 background-color: $nextgreen;
+//                 // background-color: #58a6ff;
+//                 height: 50vh;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 // display: none;
+//                 .big_circle {
+//                     display: none;
+//                 }
+//                 .skill_circles {
+//                     container-type: inline-size;
+//                     font-family: 'Inter', sans-serif;
+//                     font-weight: bold;
+//                     font-size: clamp(1rem, 2rem, 3rem);
+//                     color: white;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+//                     background-color: #00C6C3;
+//                     width: 100%;
+//                     // when it's small
+//                     // when big etch these out
+//                     // flex-direction: column;
+//                     gap: .5ch;
+//                     // first 6
+//                     .first_six {
+//                         display: flex;
+//                         flex-direction: column;
+//                         gap: .5ch;
+//                         // first 3
+//                         .first_three {
+//                             display: flex;
+//                             gap: .5ch;
+//                             // background-color: #00C6C3;
+//                             .back_circle {
+//                                 background-color: $jobdescription;
+//                                 background-color: $skillsteal;
+//                                 width: 13vw;
+//                                 height: 13vw;
+//                                 border-radius: 50%;
+//                                 border: 3px solid $darkblue;
+//                                 display: flex;
+//                                 justify-content: center;
+//                                 align-items: center;
+//                                 .front_circle {
+//                                    background-color: $darkblue;
+//                                    width: 12vw;
+//                                    height: 12vw;
+//                                    border-radius: 50%;
+//                                    display: flex;
+//                                    justify-content: center;
+//                                    align-items: center;
+//                                 }
+//                             }
+//                         }
+//                         // second 3
+//                         .second_three {
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                             gap: .5ch;
+//                             .back_circle {
+//                                 background-color: $jobdescription;
+//                                 background-color: $skillsteal;
+//                                 width: 13vw;
+//                                 height: 13vw;
+//                                 border-radius: 50%;
+//                                 border: 3px solid $darkblue;
+//                                 display: flex;
+//                                 justify-content: center;
+//                                 align-items: center;
+//                                 .front_circle {
+//                                    background-color: $darkblue;
+//                                    width: 12vw;
+//                                    height: 12vw;
+//                                    border-radius: 50%;
+//                                    display: flex;
+//                                    justify-content: center;
+//                                    align-items: center;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                     // second 6
+//                     .second_six {
+//                         display: flex;
+//                         align-items: center;
+//                         justify-content: center;
+//                         flex-direction: column;
+//                         gap: .5ch;
+//                         // third 3
+//                         .third_three {
+//                             display: flex;
+//                             gap: .5ch;
+//                             .back_circle {
+//                                 background-color: $jobdescription;
+//                                 background-color: $skillsteal;
+//                                 width: 13vw;
+//                                 height: 13vw;
+//                                 border-radius: 50%;
+//                                 border: 3px solid $darkblue;
+//                                 display: flex;
+//                                 justify-content: center;
+//                                 align-items: center;
+//                                 .front_circle {
+//                                    background-color: $darkblue;
+//                                    width: 12vw;
+//                                    height: 12vw;
+//                                    border-radius: 50%;
+//                                    display: flex;
+//                                    justify-content: center;
+//                                    align-items: center;
+//                                 }
+//                             }
+//                         }
+//                         // third 4
+//                         .fourth_three {
+//                             display: flex;
+//                             gap: .5ch;
+//                             .back_circle {
+//                                 background-color: $jobdescription;
+//                                 background-color: $skillsteal;
+//                                 width: 13vw;
+//                                 height: 13vw;
+//                                 border-radius: 50%;
+//                                 border: 3px solid $darkblue;
+//                                 display: flex;
+//                                 justify-content: center;
+//                                 align-items: center;
+//                                 .front_circle {
+//                                    background-color: $darkblue;
+//                                    width: 12vw;
+//                                    height: 12vw;
+//                                    border-radius: 50%;
+//                                    display: flex;
+//                                    justify-content: center;
+//                                    align-items: center;
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
 // IPad Air
 @media screen and (min-width: 841px) and (max-width: 888px){
     * {
