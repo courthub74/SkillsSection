@@ -429,7 +429,6 @@
   }
   * body .skills_section {
     background-color: #00313E;
-    background-color: #58a6ff;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -447,7 +446,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #00C6C3;
     width: 100%;
     gap: 0.5ch;
   }
