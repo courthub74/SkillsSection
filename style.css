@@ -422,7 +422,155 @@
     align-items: center;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 840px) {
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  * {
+    margin: 0;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .skills_section {
+    background-color: #00313E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .big_circle {
+    display: none;
+  }
+  * body .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 840px) {
   * {
     margin: 0;
   }
@@ -842,12 +990,7 @@
     align-items: center;
   }
 }
-@media screen and (min-width: 1021px) and (max-width: 1024px) {
-  * {
-    display: none;
-  }
-}
-@media screen and (min-width: 889px) and (max-width: 1020px) {
+@media screen and (min-width: 889px) and (max-width: 911px) {
   * {
     margin: 0;
   }
@@ -888,8 +1031,8 @@
   * body .skills_section .skill_circles .first_six .first_three .back_circle {
     background-color: #00C6C3;
     background-color: #146166;
-    width: 12vw;
-    height: 12vw;
+    width: 11vw;
+    height: 11vw;
     border-radius: 50%;
     border: 3px solid #080E2F;
     display: flex;
@@ -898,8 +1041,8 @@
   }
   * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
     background-color: #080E2F;
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -914,8 +1057,8 @@
   * body .skills_section .skill_circles .first_six .second_three .back_circle {
     background-color: #00C6C3;
     background-color: #146166;
-    width: 12vw;
-    height: 12vw;
+    width: 11vw;
+    height: 11vw;
     border-radius: 50%;
     border: 3px solid #080E2F;
     display: flex;
@@ -924,8 +1067,8 @@
   }
   * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
     background-color: #080E2F;
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -945,8 +1088,8 @@
   * body .skills_section .skill_circles .second_six .third_three .back_circle {
     background-color: #00C6C3;
     background-color: #146166;
-    width: 12vw;
-    height: 12vw;
+    width: 11vw;
+    height: 11vw;
     border-radius: 50%;
     border: 3px solid #080E2F;
     display: flex;
@@ -955,8 +1098,8 @@
   }
   * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
     background-color: #080E2F;
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -969,8 +1112,8 @@
   * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
     background-color: #00C6C3;
     background-color: #146166;
-    width: 12vw;
-    height: 12vw;
+    width: 11vw;
+    height: 11vw;
     border-radius: 50%;
     border: 3px solid #080E2F;
     display: flex;
@@ -979,15 +1122,603 @@
   }
   * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
     background-color: #080E2F;
-    width: 11vw;
-    height: 11vw;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
-@media screen and (min-width: 1025px) and (max-width: 1279px) {
+@media screen and (min-width: 912px) and (max-width: 913px) {
+  * {
+    margin: 0;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .skills_section {
+    background-color: #00313E;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .big_circle {
+    display: none;
+  }
+  * body .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 914px) and (max-width: 950px) {
+  * {
+    margin: 0;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .skills_section {
+    background-color: #00313E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .big_circle {
+    display: none;
+  }
+  * body .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 1024px) {
+  * {
+    margin: 0;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .skills_section {
+    background-color: #00313E;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .big_circle {
+    display: none;
+  }
+  * body .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+    gap: 1ch;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1180px) and (max-width: 1200px) {
+  * {
+    margin: 0;
+  }
+  * body {
+    background-color: #080E2F;
+  }
+  * body .skills_section {
+    background-color: #00313E;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .big_circle {
+    width: 50vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 3vw;
+  }
+  * body .skills_section .big_circle .big_skills {
+    border-radius: 50%;
+    background-color: #080E2F;
+    color: white;
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+  }
+  * body .skills_section .skill_circles {
+    container-type: inline-size;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5ch;
+    margin-left: -4vw;
+  }
+  * body .skills_section .skill_circles .first_six {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .first_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .first_six .second_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .third_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three {
+    display: flex;
+    gap: 0.5ch;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle {
+    background-color: #00C6C3;
+    background-color: #146166;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    border: 3px solid #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .skills_section .skill_circles .second_six .fourth_three .back_circle .front_circle {
+    background-color: #080E2F;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1279px) {
   * {
     margin: 0;
   }
